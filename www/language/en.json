@@ -1,0 +1,18 @@
+{
+  "view":{
+    "menu":{
+      "transmissibility": "Transmissibility",
+      "shockabsorberscalculation": "Shock absorbers calculation",
+      "shockresponse": "Shock response",
+      "productdatasheet": "Product datasheet"
+    },
+    "productdatasheet":{
+      "familyname":"Family Name",
+      "pdf": "PDF",
+      "order": "Order",
+      "globalsearch":"global search",
+      "home":"Home",
+      "menu":"Menu"
+    }
+  }
+}

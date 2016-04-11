@@ -1,0 +1,37 @@
+<div>
+  <table st-table="displayedFamilleSuspensions" st-safe-src="familleSuspensions" class="table table-striped">
+    <thead>
+      <tr>
+        <th st-sort="NomFamilleFR">{{ 'view.productdatasheet.familyname' | translate }}</th>
+        <th st-sort="PDFFr">{{ 'view.productdatasheet.pdf' | translate }}</th>
+        <th st-sort="Ordre">{{ 'view.productdatasheet.order' | translate }}</th>
+        <!-- <th st-sort="AdresseFR">Adresse</th> -->
+      </tr>
+      <tr>
+        <th colspan="4">
+          <input st-search="" class="form-control" placeholder="{{ 'view.productdatasheet.globalsearch' | translate }}..." type="text"/>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in displayedFamilleSuspensions">
+      <td>{{row.NomFamilleFR}}</td>
+      <td>{{row.PDFFr}}</td>
+      <td>{{row.Ordre}}</td>
+      <!-- <td>{{row.AdresseFR}}</td> -->
+      <td>
+            <i class="fa fa-area-chart text-info" ng-click="go('/home')"></i>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <!-- <i class="fa fa-arrow-left text-info fa-lg" ng-click="go('/menu')"></i>&nbsp; Menu
+  <i class="fa fa-home text-info fa-lg" ng-click="go('/home')"></i>&nbsp; Home -->
+<div style="width:40%" class="center-menu-home">
+  <div class="list-group">
+    <a class="list-group-item" href="#/home"><i class="fa fa-home fa-fw text-info"></i>&nbsp; {{ 'view.productdatasheet.home' | translate }}</a>
+    <a class="list-group-item" href="#/menu"><i class="fa fa-arrow-left fa-fw text-info"></i>&nbsp; {{ 'view.productdatasheet.menu' | translate }}</a>
+  </div>
+</div>
+
+</div>

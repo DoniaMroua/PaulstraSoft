@@ -1,0 +1,18 @@
+{
+  "view":{
+    "menu":{
+      "transmissibility": "Transmissibilité",
+      "shockabsorberscalculation": "Calcul de butées",
+      "shockresponse": "Réponse aux chocs",
+      "productdatasheet": "Fiche Produit"
+    },
+    "productdatasheet":{
+      "familyname":"Nom famille",
+      "pdf": "PDF",
+      "order": "Ordre",
+      "globalsearch":"Recherche globale",
+      "home":"Accueil",
+      "menu":"Menu"
+    }
+  }
+}

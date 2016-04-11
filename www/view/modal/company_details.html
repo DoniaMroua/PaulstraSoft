@@ -1,0 +1,40 @@
+<modal-content>
+  <modal-header>
+    <h4 class="modal-title pull-right"> Société</h2>
+  </modal-header>
+
+  <modal-body>
+    <form class="form-horizontal">
+      <form-group>
+        <label class="control-label.col-sm-6">Societé (*)</label>
+        <div class="col-sm-6">
+          <input class="form-control" placeholder="Nom société"  type="text" ng-model="company.name">
+        </div>
+      </form-group>
+      <form-group>
+        <label class="control-label.col-sm-6">Téléphone (*)</label>
+        <div class="col-sm-6">
+          <input class="form-control" placeholder="Téléphone"  type="number" ng-model="company.phone">
+        </div>
+      </form-group>
+      <form-group>
+        <label class="control-label.col-sm-6">E-mail (*)</label>
+        <div class="col-sm-6">
+          <input class="form-control" placeholder="E-mail"  type="text" ng-model="company.email">
+        </div>
+      </form-group>
+      <form-group>
+        <label class="control-label.col-sm-6">Adresse (*)</label>
+        <div class="col-sm-6">
+          <textarea class="form-control" placeholder="Address" ng-model="company.address"/>
+        </div>
+      </form-group>
+    </form>
+  </modal-body>
+
+  <modal-footer>
+    <button class="btn btn-default btn-addon btn-sm m-t-n-xs" ng-click="cancel()">
+      <i class="fa fa-close text-danger" >Fermer</i>
+    </button>
+  </modal-footer>
+</modal-content>
